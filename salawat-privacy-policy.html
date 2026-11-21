@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salawat App – Privacy Policy</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.7; color: #222; max-width: 850px; margin: 40px auto; padding: 0 20px; }
+    h1, h2 { color: #185c36; }
+    h1 { line-height: 1.25; }
+    .date { color: #666; }
+    a { color: #1769aa; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy – Salawat App</h1>
+    <p class="date"><strong>Effective date:</strong> November 22, 2026</p>
+
+    <p>This Privacy Policy explains how Salawat App accesses and uses information when you use the application.</p>
+
+    <h2>1. Location Information</h2>
+    <p>With your permission, Salawat App accesses your device's location to obtain your approximate prayer-time coordinates (latitude and longitude). You can manage or revoke location permission through your device settings. If you do not grant location permission, location-based prayer-time features may not work as intended.</p>
+
+    <h2>2. Aladhan API</h2>
+    <p>To calculate prayer times, the app sends latitude and longitude coordinates to the Aladhan API over HTTPS:</p>
+    <p><a href="https://api.aladhan.com/">https://api.aladhan.com/</a></p>
+    <p>The app uses calculation method 5 as configured by the app to request prayer-time information. The API provider receives the coordinates in order to return the requested timings. The API provider's own privacy practices and terms may also apply.</p>
+
+    <h2>3. Local Storage and Offline Use</h2>
+    <p>Prayer times returned by the API are saved locally on your device using Android SharedPreferences. The app uses this saved information to display previously retrieved prayer times without making a new network request each time you open the app. The app may request updated timings once per day and when you change your location, as described by its functionality.</p>
+
+    <h2>4. Prayer Notifications</h2>
+    <p>The app can schedule local notifications to remind you of prayer times. You can control notification permissions and settings through your device settings.</p>
+
+    <h2>5. Internet Connection</h2>
+    <p>An internet connection is needed to request prayer-time updates from the Aladhan API. Previously saved prayer times can remain available offline.</p>
+
+    <h2>6. Data Sharing</h2>
+    <p>The app sends your latitude and longitude to the Aladhan API for prayer-time calculations. This policy describes that transfer. It does not make claims about data practices of other services or software components that may be added to the app in the future.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Salawat App is intended for a general audience. If the app or any integrated service collects additional information, this policy should be updated to describe that collection and the applicable protections.</p>
+
+    <h2>8. Data Security</h2>
+    <p>Requests to the Aladhan API are made over HTTPS. No method of electronic transmission or storage can be guaranteed to be completely secure.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>This Privacy Policy may be updated from time to time. The updated version will be published at this same web address, with a revised effective date when appropriate.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about this Privacy Policy or Salawat App, contact the developer through the developer contact information provided on the app's distribution page.</p>
+
+  </main>
+</body>
+</html>
